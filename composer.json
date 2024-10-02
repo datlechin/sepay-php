@@ -1,0 +1,30 @@
+{
+    "name": "datlechin/sepay-php",
+    "type": "library",
+    "require": {
+        "php": "^7.4|^8.0",
+        "guzzlehttp/guzzle": "^7.9.2"
+    },
+    "require-dev": {
+        "pestphp/pest": "^1.20|^2.0|^3.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Datlechin\\SePay\\": "src/",
+            "Datlechin\\SePay\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ngo Quoc Dat",
+            "email": "hi@ngoquocdat.dev",
+            "homepage": "https://ngoquocdat.dev"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}

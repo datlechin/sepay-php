@@ -1,7 +1,7 @@
 # SePay PHP
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/datlechin/sepay-php.svg?style=flat-square)](https://packagist.org/packages/datlechin/sepay-php)
-[![Tests](https://img.shields.io/github/actions/workflow/status/datlechin/sepay-php/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/datlechin/sepay-php/actions/workflows/run-tests.yml)
+[![Tests](https://img.shields.io/github/actions/workflow/status/datlechin/sepay-php/tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/datlechin/sepay-php/actions/workflows/tests.yml)
 [![Total Downloads](https://img.shields.io/packagist/dt/datlechin/sepay-php.svg?style=flat-square)](https://packagist.org/packages/datlechin/sepay-php)
 
 SePay PHP là một thư viện PHP giúp tích hợp dịch vụ thanh toán SePay vào ứng dụng của bạn một cách dễ dàng. Thư viện này cung cấp các phương thức để quản lý tài khoản ngân hàng, theo dõi giao dịch và xử lý webhook.

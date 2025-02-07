@@ -52,7 +52,6 @@ $transaction = $client->transactions()->get($transactionId);
 $count = $client->transactions()->count();
 ```
 
-
 ### Xử lý Webhook
 
 ```php
@@ -60,11 +59,9 @@ use Datlechin\SePay\SePay;
 use Datlechin\SePay\Webhook\Payload;
 use Datlechin\SePay\Webhook\Webhook;
 
-$webhook = SePay::webhook();
-
-$webhook->setAuthorization(Webhook::AUTH_API_KEY, 'your_api_key_here');
-
-$webhook->handle(function (Payload $payload) {
+SePay::webhook()
+    ->setAuthorization(Webhook::AUTH_API_KEY, 'your_api_key_here')
+    ->handle(function (Payload $payload) {
     // Xử lý webhook như lưu thông tin giao dịch hay cập nhật trạng thái đơn hàng...
 
     return true; // Trả về true để xác nhận webhook hợp lệ hoặc false nếu không hợp lệ
